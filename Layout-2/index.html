@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books | Website Layout</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- font-awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/mobile-style.css">
+</head>
+
+<body>
+    <header>
+
+        <!-- navigation menu bar. -->
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg sticky-md-top">
+                <a href="#" class="navbar-brand">
+                    <i class="fa fa-book-reader fa-2x mx-3"></i>
+                    Books</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="navbar-item active">
+                            <a href="#" class="nav-link" aria-current="page">Home</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#" class="nav-link">Course</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#" class="nav-link">Price</a>
+                        </li>
+                        <li class="navbar-item dropdown">
+                            <div class="dropdown">
+                                <a href="#" class="nav-link">Pages</a>
+                                <div class="dropdown-content">
+                                    <a href="#">Generic</a>
+                                    <a href="#">Element</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#" class="nav-link">Fact</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#" class="nav-link">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!-- home banner -->
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 author">
+                    <h6>AUTHOR : DAILY TUITION</h6>
+                    <h1>EXCITING ADVENTURE</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consectetur ducimus voluptas
+                        veniam odio, et iure ex dolor sapiente eligendi.</p>
+                    <button type="button" class="btn btn-light px-5 py-2 primary-btn">Buy now for $5.99</button>
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 h-25">
+                    <img src="images/header-img.png" alt="Book">
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <!-- title section / section-1 -->
+        <section class="section-1">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="pray">
+                            <img src="images/pexels-photo-1904769.jpeg" alt="pray">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="panel text-left">
+                            <h1 class="display-4">Mr. David Smith</h1>
+                            <p class="pt-4">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere iure adipisci harum
+                                ducimus accusantium,
+                                repudiandae aperiam
+                                voluptatum, id ex ratione omnis reiciendis possimus officiis.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vitae, tenetur quidem
+                                eum aliquid vel labore sint
+                                placeat
+                                ad deserunt consectetur fugit ullam. Eius unde neque ducimus obcaecati ipsum quos vero
+                                totam recusandae hic
+                                expedita nemo sit, illum harum. Quisquam impedit ullam itaque facere et ad molestiae
+                                quod reprehenderit excepturi!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- features / section-2 -->
+        <section class="section-2 container-fluid p-0">
+            <div class="cover">
+                <div class="overlay"></div>
+                <div class="content text-center">
+                    <h1>Some features that made us unique.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, maiores.</p>
+                </div>
+            </div>
+
+            <div class="container-fluid text-center">
+                <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+                    <div class="rect">
+                        <h1>2345</h1>
+                        <p>Happy Client</p>
+                    </div>
+                    <div class="rect">
+                        <h1>6784</h1>
+                        <p>Cups Coffee</p>
+                    </div>
+                    <div class="rect">
+                        <h1>1056</h1>
+                        <p>Tickets Submitted</p>
+                    </div>
+                    <div class="rect">
+                        <h1>9152</h1>
+                        <p>Total Projects</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="purchase text-center">
+                <h1>Purchase The Best Deal For You</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                <!-- cards -->
+                <div class="container cards">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="title">
+                                        <h5 class="card-title">PDF</h5>
+                                    </div>
+                                    <p class="card-text">With supporting text below as a natural lead-in.</p>
+                                    <div class="pricing">
+                                        <h1>$77.99</h1>
+                                        <a href="#"><button type="button"
+                                                class="btn btn-lg btn-dark px-5 py-2 primary-btn mb-5">Purchase Now</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="title">
+                                        <h5 class="card-title">E-book</h5>
+                                    </div>
+                                    <p class="card-text">With supporting text below as a natural lead-in.</p>
+                                    <div class="pricing">
+                                        <h1>$99.99</h1>
+                                        <a href="#"><button type="button"
+                                                class="btn btn-lg btn-dark px-5 py-2 primary-btn mb-5">Purchase Now</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="title">
+                                        <h5 class="card-title">Print Copy</h5>
+                                    </div>
+                                    <p class="card-text">With supporting text below as a natural lead-in.</p>
+                                    <div class="pricing">
+                                        <h1>$58.99</h1>
+                                        <a href="#"><button type="button"
+                                                class="btn btn-lg btn-dark px-5 py-2 primary-btn mb-5">Purchase Now</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section 3 -->
+        <section class="section-3 container-fluid p-0 text-center">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <h1>Download Our App for all Platform</h1>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum exercitationem alias perspiciatis
+                        omnis quod possimus
+                        odit
+                        voluptatum! Sunt ea quasi praesentium, tenetur doloribus animi obcaecati, sint nemo quae
+                        laudantium iusto unde
+                        eaque nostrum nobis voluptatum
+                    </p>
+                </div>
+            </div>
+
+            <div class="platform row">
+                <div class="col-md-6 col-sm-12 text-right">
+                    <div class="desktop shadow-lg">
+                        <!-- create a flexbox -->
+                        <div class="d-flex flex-row justify-content-center">
+                            <i class="fas fa-desktop fa-3x py-2 pr-3"></i>
+                            <div class="text text-left">
+                                <h3 class="pt-1 m-0">Desktop</h3>
+                                <p class="p-0 m-0">On website</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 text-left">
+                    <div class="desktop shadow-lg">
+                        <!-- create the second flexbox -->
+                        <div class="d-flex flex-row justify-content-center">
+                            <i class="fas fa-mobile-alt fa-3x py-2 pr-3"></i>
+                            <div class="text text-left">
+                                <h3 class="pt-1 m-0">On Mobile</h3>
+                                <p class="p-0 m-0">On Play Store</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section-4 -->
+        <section class="section-4">
+            <div class="container text-center">
+                <h1 class="text-dark">What our Reader's Say about us.</h1>
+                <p class="text-secondary">Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div class="team row">
+                <div class="col-md-4 text-center">
+
+                    <div class="card d-inline-block mr-2 shadow-lg">
+                        <div class="card-img-top">
+                            <img src="images/UI-face-3.jpg" alt="" class="img-fluid border-radius p-4">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Blalock Jolene</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae,
+                                veniam, illo dolor soluta
+                                assumenda
+                                minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi
+                                voluptas!
+                            </p>
+                            <a href="#" class="text-primary text-decoration-none">Go somewhere</a>
+                            <p class="text-black-50">Product Manager At Google</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner text-center">
+                            <div class="carousel-item active">
+                                <div class="card d-inline-block mr-2 shadow-lg">
+                                    <div class="card-img-top">
+                                        <img src="images/UI-face-1.jpg" alt="" class="img-fluid border-radius p-4 w-75">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">Allen Agnes</h3>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae,
+                                            veniam, illo dolor soluta
+                                            assumenda
+                                            minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi
+                                            voluptas!
+                                        </p>
+                                        <a href="#" class="text-primary text-decoration-none">Go somewhere</a>
+                                        <p class="text-black-50">Web-Developer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card d-inline-block mr-2 shadow-lg">
+                                    <div class="card-img-top">
+                                        <img src="images/UI-face-2.jpg" alt="" class="img-fluid border-radius p-4 w-75">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">Amiel Barbara</h3>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae,
+                                            veniam, illo dolor soluta
+                                            assumenda
+                                            minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi
+                                            voluptas!
+                                        </p>
+                                        <a href="#" class="text-primary text-decoration-none">Go somewhere</a>
+                                        <p class="text-black-50">Graphic Designer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="col-md-4 text-center">
+
+                    <div class="card d-inline-block mr-2 shadow-lg">
+                        <div class="card-img-top">
+                            <img src="images/UI-face-4.jpg" alt="" class="img-fluid border-radius p-4">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Olivia Louis</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae,
+                                veniam, illo dolor soluta assumenda
+                                minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi
+                                voluptas!
+                            </p>
+                            <a href="#" class="text-primary text-decoration-none">Go somewhere</a>
+                            <p class="text-black-50">Android Developer</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="conatiner-fluid p-0">
+
+            <div class="row text-left">
+                <div class="col-md-5 col-sm-5">
+                    <h4 class="text-light">About Us</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis obcaecati repudiandae pariatur eum laborum?</p>
+                    <p class="pt-4 text-muted">Copyright ©2019 All rights reserved | This template is made with by
+                        <span>Daily Tuition</span>
+                    </p>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <h4 class="text-light">Newsletter</h4>
+                    <p class="text-muted">Stay Updated</p>
+                    <form class="form-inline">
+                        <div class="col pl-0">
+                            <div class="input-group pr-5">
+                                <input type="text" class="form-control bg-dark text-white" id="inlineFormInputGroupUsername2" placeholder="Email">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <h4 class="text-light">Follow Us</h4>
+                    <p class="text-muted">Let us be social</p>
+                    <div class="column text-light">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Javascript Bootstrap CDN -->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
